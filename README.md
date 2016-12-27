@@ -19,13 +19,13 @@ NumberOfPoints(N) DebugMode(0: OFF, 1: ON)
 xCoord1 yCoord1
 ...
 xCoordN yCoordN
-
+~~~~~~~~~~~~
 EXAMPLE INPUT
 ~~~~~~~~~~~~~
 2 0
 1 1
 5 3
-
+~~~~~~~~~~~~~
 EXAMPLE OUTPUT
 ~~~~~~~~~~~~~~~
 Closest pair by O(n^2) algorithm: (1, 1) (5, 3)
@@ -39,19 +39,19 @@ Time: 3 ms.
 n: 2
 time2/(n*log(n)): 2.164042
 time2/(n*log(n)^2): 3.122053
-
+~~~~~~~~~~~~~~~
 HOW TO RUN
 ===========
 Run 'make' to compile the program and create the executable 'run' using the makefile.
+Also has the commands 'make clean' and 'make tar'
 Execute the created run executable by calling:
+~~~~~~~~~~~~~~~
 ./run 
  OR
 ./run INPUT_ FILENAME
  OR 
 ./run INPUT_FILENAME OUTPUT_FILENAME
-
-Also has the commands 'make clean' and 'make tar'
-
+~~~~~~~~~~~~~~~
 BASH COMMANDS EXAMPLES
 ~~~~~~~~~~~~~~~~~~~~~~~~
 Reads input from "data" file and writes results to "output" file
@@ -69,7 +69,7 @@ OR
 Reads input from INPUT_FILENAME file and writes results to OUTPUT_FILENAME file.
 $ make
 $ ./run INPUT_FILENAME OUTPUT_FILENAME
-
+~~~~~~~~~~~~~~~~~~~~~~~~
 INCLUDED FILES
 ===============
 
@@ -79,7 +79,7 @@ CPAlgo.h
 FileSysIO.h
 Pair.h
 Point.h
-
+~~~~~~~~~~~~
 C++ PROGRAM FILES
 ~~~~~~~~~~~~~~~~~~
 Main.cpp
@@ -87,10 +87,11 @@ CPAlgo.cpp
 FileSysIO.cpp
 Pair.cpp
 Point.cpp
-
+~~~~~~~~~~~~~~~~~~
 OTHER FILES
 ~~~~~~~~~~~
 README.md
 makefile
 data
 output
+~~~~~~~~~~~
