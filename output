@@ -1,0 +1,11 @@
+Closest pair by O(n^2) algorithm: (42, 11) (45, 11)
+Distance: 3.000000
+Time: 10898 ms.
+
+Closest pair by O(nlog(n)) algorithm: (42, 11) (45, 11)
+Distance: 3.000000
+Time: 6 ms.
+
+n: 10
+time2/(n*log(n)): 0.260577
+time2/(n*log(n)^2): 0.113167
